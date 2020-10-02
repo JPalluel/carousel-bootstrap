@@ -1,0 +1,66 @@
+/*nav bar*/
+
+.navbar{
+    display: flex;
+}
+
+
+a{
+    float:left;
+} 
+
+
+/* carousel*/
+#carouselExampleIndicators{
+    width:50%;
+    margin:auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption{
+    text-align: left;
+
+}
+
+
+/* first part*/
+
+.firstpart{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#btn{
+    margin-left:70px;
+}
+
+/* cards*/
+
+.circularimg{  
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin:auto;
+}
+
+.circularimg img{
+    
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+
+.card-title{
+    text-align: center;
+}
+#linktotop{
+    padding-left: 450px;
+}
